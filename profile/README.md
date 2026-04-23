@@ -1,5 +1,7 @@
 # bio-rs
 
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bio-rs/bio-rs/blob/main/LICENSE)
+
 Open source Rust/WASM tools for biological AI models.
 
 Python is where many bio-AI models are born. `bio-rs` is where the tooling
