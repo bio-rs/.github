@@ -8,9 +8,9 @@ Python is where many bio-AI models are born. `bio-rs` is where the tooling
 around them becomes portable, inspectable, and easier to use from CLIs,
 browsers, servers, and agents.
 
-## Current focus
+## Core pipeline
 
-The first layer is intentionally small:
+The core pipeline is intentionally small:
 
 ```txt
 FASTA -> validated protein sequence -> token ids -> model-ready input
@@ -19,11 +19,11 @@ FASTA -> validated protein sequence -> token ids -> model-ready input
 ## Projects
 
 - [`bio-rs`](https://github.com/bio-rs/bio-rs): the main monorepo for core
-  libraries, CLI tools, and future WASM/agent tooling.
+  libraries, CLI tools, and WASM/agent tooling.
 
-## Direction
+## Scope
 
-`bio-rs` is building toward:
+`bio-rs` focuses on:
 
 - protein and biological sequence input contracts
 - tokenizers and model-ready inputs
