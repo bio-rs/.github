@@ -23,14 +23,7 @@ FASTA -> validated protein sequence -> token ids -> model-ready input
 
 ## Scope
 
-`bio-rs` focuses on:
-
-- protein and biological sequence input contracts
-- tokenizers and model-ready inputs
-- CLI tools for local workflows
-- WASM tools for browser-side demos
-- portable model runners
-- agent-callable biological AI tools
+`bio-rs` focuses on a portable input/runtime tooling layer for biological AI.
 
 The goal is not to replace Python research workflows. The goal is to make the
 tools around Python-born bio-AI models easier to package, inspect, and run
