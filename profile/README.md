@@ -5,8 +5,8 @@
 Open source Rust/WASM tools for biological AI models.
 
 Python is where many bio-AI models are born. `bio-rs` is where the tooling
-around them becomes portable, inspectable, and easier to use from CLIs,
-browsers, servers, and agents.
+around them becomes portable, inspectable, and easier to package outside
+notebooks.
 
 ## Core pipeline
 
@@ -16,10 +16,9 @@ The core pipeline is intentionally small:
 FASTA -> validated protein sequence -> token ids -> model-ready input
 ```
 
-## Projects
+## Repository
 
-- [`bio-rs`](https://github.com/bio-rs/bio-rs): the main monorepo for core
-  libraries, CLI tools, and WASM/agent tooling.
+- [`bio-rs`](https://github.com/bio-rs/bio-rs)
 
 ## Scope
 
