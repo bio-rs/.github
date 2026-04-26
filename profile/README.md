@@ -15,3 +15,7 @@ notebooks.
 The goal is not to replace Python research workflows. The goal is to make the
 tools around Python-born bio-AI models easier to package, inspect, and run
 outside notebooks.
+
+## Repository
+
+- [`bio-rs`](https://github.com/bio-rs/bio-rs)
